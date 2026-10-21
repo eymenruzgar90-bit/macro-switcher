@@ -1,0 +1,21 @@
+name: Build Mod
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["*"]
+
+jobs:
+  build:
+    name: Windows
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build the mod
+        uses: geode-sdk/build-geode-mod@v3.0.1
+        with:
+          path: gd
+          bindings: geode-sdk/bindings
+          bindings-ref: main
+          cmake-version: '3.31.6'
