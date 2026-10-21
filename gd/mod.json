@@ -1,0 +1,12 @@
+{
+	"geode": "v3.0.0",
+	"gd": {
+		"win": "2.2074"
+	},
+	"version": "v1.0.0",
+	"id": "yourname.macro-switcher",
+	"name": "Macro Switcher",
+	"developer": "YourName",
+	"description": "Sekmeli profil sistemi ile 1-9 tuslariyla macro (replay) degistirme ve 0 ile Legit Mode.",
+	"tags": ["utility"]
+}
